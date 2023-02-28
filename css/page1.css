@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../resources/pexels-simon-berger-1323550.jpg);
+    background-size: cover;
+    color: white;
+    
+}
+form{
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+
+#name{
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;    
+    border-radius: 50px;
+    border: solid 1px rgb(255, 255, 255);
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.066);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btn{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.195);
+    text-decoration: none;
+    color: white;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s;
+}
+
+#name::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    opacity: 70%;
+}
+
+.important{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100vw;
+}
+
+.important nav{
+    background-color: rgba(0, 0, 0, 0) !important;;
+    left: 0;
+    position: absolute;
+}
+
+.important nav i{
+    font-size: 20px !important;
+}
+
+.important nav p{
+    font-size: 20px !important;
+}
+
+#name:focus{
+    padding: 10px;
+    outline: none;
+    border: solid 2px #00ffbb;
+    background-color: rgba(0, 0, 0, 0.195);
+    text-decoration: none;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+#btn:hover{
+    height: 70px;
+    width: 120px;
+    border: solid 2px #00ffbb;
+}

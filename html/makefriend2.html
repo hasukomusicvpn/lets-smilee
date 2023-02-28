@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/page4.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="important">
+        <nav>
+            <div>
+                <a href="./home.html"><i class="fa-regular fa-face-smile"></i></a>
+                <p>Let's Smile</p>
+            </div>
+        </nav>
+    </div>
+    <div class="section section-1">
+        <h1 data-aos="fade-down" data-aos-duration="600">Make Friends? Scroll Down Then!</h1>
+    </div>
+    <div class="section section-2">
+        <div class="user" data-aos="zoom-in-down" data-aos-delay="300">
+            <h1>Your Information:</h1>
+            <i class="fa-regular fa-user"></i>
+            <h2 id="name"></h2>
+            <br>
+            <p>Click the button down below, we will automately generate a people that you can contact with. If you want to switch just click it again. If you want to show their social media, you can click on the icons below.</p>
+            <button id="myBtn">Find a friend</button>
+        </div>
+       
+        <div id="output"></div>
+    </div>
+    <script src="../js/page4.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

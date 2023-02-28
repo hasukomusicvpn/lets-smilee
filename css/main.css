@@ -1,0 +1,70 @@
+*{
+    padding: 0 ; 
+    margin: 0 ;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Ubuntu:wght@300;400;500&display=swap');
+
+
+.important nav {
+    background-color: #475574;
+    color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.important nav div{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.important nav p{
+    display: inline-block;
+}
+
+.important{
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    
+}
+
+a{
+    color: white;
+}
+
+#buttons{
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 500px;
+    height: 70px;
+    text-align: right;
+}
+
+#buttons a{
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+#home{
+    left: 270px;
+}
+
+#about{
+    margin-right: 10px;
+}

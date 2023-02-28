@@ -1,0 +1,127 @@
+.section{
+    width: 100vw;
+    height: 100vh;  
+    overflow: hidden;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #192A51;
+}
+
+.section-1 h1{
+    color: white;
+    font-size: 40px;
+}
+
+.section-1::before{
+    content: "";
+    position: absolute;
+    top: 450px;
+    left: 520px;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+}
+
+.section-2{
+    background: url(https://images.hdqwalls.com/wallpapers/bthumb/friends-reunion-ii.jpg);
+    background-size: cover;
+}
+
+.user{
+    z-index: 2;
+    margin-top: 150px;
+    background-color: #192a51d4;
+    height: 600px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid #475574;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.user h2, .user p{
+    display: inline-block;
+}
+
+#myBtn{
+    width: 400px;
+    margin-top: 250px;
+    height: 40px;
+    outline: none;
+    border: 2px solid #475574;
+    border-radius: 20px;
+    background: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    transition: all 0.3s;
+
+}
+
+#myBtn:hover{
+    background-color: #475574;
+}
+
+.container{
+    position: absolute;
+    background-color: #192a51ba;
+    width: 500px;
+    height: 580px;
+    top: 100vh;
+    margin-top: 150px;
+    left: 900px;
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px solid #475574;
+    color: white;
+    text-align: center;
+}
+
+.container ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.container img{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 1px #475574;
+}
+
+span{
+    color: #7185b0;
+}
+
+.user p{
+    width: 350px;
+    font-size: 20px;
+    margin-top: 60px;
+    border: solid 1px #475574;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 10px 10px;
+    position: relative;
+    top: 20px;
+    transition: all 0.3s;
+    color: #7185b0;
+}
+
+.container a:hover{
+    font-size: 35px;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap');
+
+.cont{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cont-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #192A51;
+}
+
+.cont-1 h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: solid 10px white;
+}
+
+.cont-1 p{
+    color: white;
+    margin-top: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.cont-2 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: solid 5px #293A5E;
+    padding: 5px;
+}
+
+.cont-2 div{
+    width: 700px;
+    height: 250px;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+.cont-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #475574;
+}
+
+.cont-2 p{
+    color: white;
+}
+
+.cont-2 span{
+    color: #293A5E;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+#ceo, #age, #hobby, #reason, #a, #b, #c, #d, #name2{
+    position: relative;
+}
+
+#name2{
+    right: 40px;
+    font-size: 50px;
+}
+
+#ceo{
+    right: 30px;
+}
+
+#age{
+    right: 20px;
+}
+
+#hobby{
+    right: 20px;
+}
+
+#reason{
+    right: 25px;
+}
+
+#a{
+    right: 35px;
+}
+
+#b{
+    right: 55px;
+}
+
+#c{
+    right: 80px;
+}
+
+#d{
+    right: 110px;
+}
+
+.absolute a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 10px 10px;
+    transition: all 0.3s;
+    color: #192A51;
+}
+
+.absolute a:hover{
+    font-size: 35px;
+}
+
+.absolute{
+    position: absolute;
+    top: 183vh;
+    left: 22.5vw;
+
+}
