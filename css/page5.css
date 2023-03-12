@@ -123,3 +123,8 @@
     left: 22.5vw;
 
 }
+
+img{
+    object-fit: cover;
+    object-position: right;
+}
